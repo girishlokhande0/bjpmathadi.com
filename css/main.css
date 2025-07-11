@@ -3440,13 +3440,13 @@ img.map-about-tab {
 }
 
 .donnerAreaContent__bigTitle__number {
-  -webkit-text-stroke: 4px #f16b2ee6;
+  -webkit-text-stroke: 0.5px #f16b2ee6;
   -webkit-text-fill-color: #000;
 }
 
 @media (max-width: 991px) {
   .donnerAreaContent__bigTitle__number {
-    -webkit-text-stroke: 2px #f16b2ee6;
+    -webkit-text-stroke: 0.5px #f16b2ee6;
   }
 }
 

@@ -3176,6 +3176,13 @@ img.map-about-tab {
   -ms-transition: all 0.4s ease;
 }
 
+@media (max-width: 767px) {
+.keyFeatureBlock__icon {
+  margin-left: 2px;
+  /* padding-left: 1px; */
+}
+}
+
 .keyFeatureBlock:hover .keyFeatureBlock__icon {
   border-color: #f16b2ee6;
   transition: all 0.4s ease;
@@ -3191,7 +3198,12 @@ img.map-about-tab {
 @media (max-width: 767px) {
   .keyFeatureBlock__content {
     padding-left: 20px;
+    
   }
+}
+
+@media (min-width: 1200px) {
+
 }
 
 .keyFeatureBlock__heading {
@@ -3208,7 +3220,7 @@ img.map-about-tab {
 }
 
 .keyFeatureBlock__skill {
-  position: absolute;
+  /* position: absolute; */
   height: 10px;
   bottom: -5px;
 }
@@ -3219,7 +3231,7 @@ img.map-about-tab {
   width: 8px;
   height: 8px;
   background: #ffffff;
-  border: 2px solid #f16b2ee6;
+  /* border: 2px solid #f16b2ee6; */
   border-radius: 100%;
   top: 50%;
   transform: translateY(-50%);
@@ -3232,7 +3244,7 @@ img.map-about-tab {
   position: absolute;
   left: 0;
   width: 100%;
-  top: 50%;
+  top: 100%;
   transform: translateY(-50%);
 }
 
